@@ -49,4 +49,8 @@
 		</plugins>
 	</build>
 
+	<scm>
+		<developerConnection>scm:git:git@github.com:neerajandhi/sfg-pet-clinic.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 </project>
