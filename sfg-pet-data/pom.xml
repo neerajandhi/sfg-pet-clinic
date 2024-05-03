@@ -4,7 +4,7 @@
     <parent>
         <groupId>java.guruneeraj.springframework</groupId>
         <artifactId>sfg-pet-clinic</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>sfg-pet-data</artifactId>
