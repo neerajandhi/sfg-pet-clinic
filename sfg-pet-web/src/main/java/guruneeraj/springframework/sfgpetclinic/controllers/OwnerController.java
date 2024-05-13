@@ -16,9 +16,8 @@ public class OwnerController {
 
     @RequestMapping({"owners","owners/index","owners/index.html"})
     public String getOwners(Model model){
-
+        System.out.println("What is the size of ownerService:" + ownerService.findAll().size());
         model.addAttribute("owners",ownerService.findAll());
-
         return "owners/index";
     }
 }
